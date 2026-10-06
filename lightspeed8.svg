@@ -29,7 +29,7 @@
               await navigator.serviceWorker.ready;
 
               // app.html is a virtual address: the service worker builds it from ?src=
-              var src = base + "app.html?src=" + encodeURIComponent(base + "index.html");
+              var src = base + "index2.html?src=" + encodeURIComponent(base + "index2.html");
 
               var iframe = document.createElementNS(XHTML, "iframe");
               iframe.setAttribute("src", src);
